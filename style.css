@@ -7,12 +7,13 @@
     box-sizing: border-box;
     font-family: "Poppins", sans-serif;
 }
-body{
+body {
     height: 100vh;
     display: flex;
     align-items: center;
     justify-content: center;
-    background: #e0e3eb;
+    background: #000000; /* Fallback background */
+    background: linear-gradient(135deg, rgba(47, 159, 255, 0.4), rgba(165, 53, 230, 0.4));
 }
 .container{
     position: relative;
